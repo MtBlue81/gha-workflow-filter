@@ -1,6 +1,6 @@
 {
   "name": "gha-workflow-filter",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "GitHub Actionsのワークフロー一覧ページで、左サイドバーのワークフローを表示名でリアルタイムにフィルタリングできるChrome拡張です。",
   "type": "module",
   "scripts": {
