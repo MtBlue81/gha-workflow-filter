@@ -12,7 +12,7 @@ GitHub Actionsのワークフロー一覧ページで、左サイドバーのワ
 
 ## スクリーンショット
 
-![screenshot](./assets/screenshot.png)
+![screenshot](./assets/screenshot.jpg)
 
 ## インストール
 
