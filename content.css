@@ -1,0 +1,87 @@
+.ghawf-filter-container {
+  padding: 8px 8px 4px;
+  position: relative;
+}
+
+.ghawf-filter-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.ghawf-filter-icon {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--fgColor-muted, #656d76);
+  display: flex;
+  align-items: center;
+}
+
+.ghawf-filter-icon svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.ghawf-filter-input {
+  width: 100%;
+  padding: 5px 28px 5px 30px;
+  font-size: 12px;
+  line-height: 20px;
+  border: 1px solid var(--borderColor-default, #d0d7de);
+  border-radius: 6px;
+  background-color: var(--bgColor-default, #ffffff);
+  color: var(--fgColor-default, #1f2328);
+  outline: none;
+  box-sizing: border-box;
+}
+
+.ghawf-filter-input::placeholder {
+  color: var(--fgColor-muted, #656d76);
+}
+
+.ghawf-filter-input:focus {
+  border-color: var(--focus-outlineColor, #0969da);
+  box-shadow: 0 0 0 3px var(--borderColor-accent-emphasis, rgba(9, 105, 218, 0.3));
+}
+
+.ghawf-filter-clear {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--fgColor-muted, #656d76);
+  cursor: pointer;
+  line-height: 1;
+}
+
+.ghawf-filter-clear:hover {
+  background-color: var(--bgColor-neutral-muted, rgba(175, 184, 193, 0.2));
+  color: var(--fgColor-default, #1f2328);
+}
+
+.ghawf-filter-clear svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
+.ghawf-filter-clear.ghawf-visible {
+  display: flex;
+}
+
+.ghawf-hidden {
+  display: none !important;
+}
