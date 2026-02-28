@@ -10,6 +10,10 @@ GitHub Actionsのワークフロー一覧ページで、左サイドバーのワ
 - Escapeキーでフィルタクリア
 - GitHub ライト/ダークテーマ対応
 
+## スクリーンショット
+
+![screenshot](./assets/screenshot.png)
+
 ## インストール
 
 1. このリポジトリをクローンまたはダウンロード
