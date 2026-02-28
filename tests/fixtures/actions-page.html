@@ -1,0 +1,25 @@
+<nav aria-label="Actions Workflows">
+  <ul>
+    <li data-test-selector="workflow-rendered">
+      <a href="/owner/repo/actions/workflows/ci.yml">
+        <span class="ActionListItem-label">CI Build</span>
+      </a>
+    </li>
+    <li data-test-selector="workflow-rendered">
+      <a href="/owner/repo/actions/workflows/deploy.yml">
+        <span class="ActionListItem-label">Deploy Production</span>
+      </a>
+    </li>
+    <li data-test-selector="workflow-rendered">
+      <a href="/owner/repo/actions/workflows/lint.yml">
+        <span class="ActionListItem-label">Lint Check</span>
+      </a>
+    </li>
+    <li data-target="nav-list-group.showMoreItem"
+        src="/owner/repo/actions/workflows?page=1"
+        data-current-page="1"
+        data-total-pages="2">
+      Show more workflows
+    </li>
+  </ul>
+</nav>

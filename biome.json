@@ -6,7 +6,12 @@
     "useIgnoreFile": true
   },
   "files": {
-    "includes": ["content.js", "manifest.json"]
+    "includes": [
+      "src/**/*.js",
+      "tests/**/*.js",
+      "vitest.config.js",
+      "manifest.json"
+    ]
   },
   "formatter": {
     "enabled": true,

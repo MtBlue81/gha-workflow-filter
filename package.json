@@ -2,16 +2,21 @@
   "name": "gha-workflow-filter",
   "version": "1.0.0",
   "description": "GitHub Actionsのワークフロー一覧ページで、左サイドバーのワークフローを表示名でリアルタイムにフィルタリングできるChrome拡張です。",
-  "main": "content.js",
+  "type": "module",
   "scripts": {
+    "build": "esbuild src/init.js --bundle --outfile=dist/content.js --format=iife --platform=browser",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "lint": "biome check .",
     "lint:fix": "biome check --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
-    "@biomejs/biome": "^2.4.4"
+    "@biomejs/biome": "^2.4.4",
+    "esbuild": "^0.25.0",
+    "happy-dom": "^18.0.1",
+    "vitest": "^3.1.1"
   }
 }
