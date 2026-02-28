@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "esbuild src/init.js --bundle --outfile=dist/content.js --format=iife --platform=browser",
+    "package": "npm run build && zip -r gha-workflow-filter.zip manifest.json content.css icons/ dist/",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "biome check .",
