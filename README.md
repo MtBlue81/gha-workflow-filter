@@ -24,3 +24,10 @@ GitHub Actionsのワークフロー一覧ページで、左サイドバーのワ
 2. 左サイドバーのワークフローリスト上部にフィルタ入力欄が表示される
 3. ワークフロー名を入力するとリアルタイムでフィルタされる
 4. クリアボタン（×）またはEscapeキーでフィルタを解除
+
+## 備考
+
+以下２つのリポジトリを参考にさせてもらっています。
+
+- https://github.com/d-kimuson/github-actions-search
+- https://github.com/kimuchanman/gha-workflows-folder
