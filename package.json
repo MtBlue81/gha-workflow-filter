@@ -16,7 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "@biomejs/biome": "2.4.13",
-    "esbuild": "0.25.12",
+    "esbuild": "0.28.0",
     "happy-dom": "18.0.1",
     "vitest": "3.2.4"
   }
